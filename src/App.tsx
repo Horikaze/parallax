@@ -1,11 +1,8 @@
+import Footer from "./components/Footer";
 import ParallaxComp from "./components/ParallaxComp";
 
 function App() {
-  return (
-    <div className="flex flex-col">
-      <ParallaxComp />
-    </div>
-  );
+  return <ParallaxComp />;
 }
 
 export default App;
