@@ -8,7 +8,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center"
           style={{
-            backgroundImage: `url(/src/images/background.png)`,
+            backgroundImage: `url(./images/background.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -17,7 +17,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center"
           style={{
-            backgroundImage: `url(/src/images/mountains.png)`,
+            backgroundImage: `url(./images/mountains.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -26,7 +26,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center"
           style={{
-            backgroundImage: `url(/src/images/logo_land.png)`,
+            backgroundImage: `url(./images/logo_land.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -35,7 +35,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center "
           style={{
-            backgroundImage: `url(/src/images/jungle1.png)`,
+            backgroundImage: `url(./images/jungle1.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -44,7 +44,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center mt-12"
           style={{
-            backgroundImage: `url(/src/images/jungle2.png)`,
+            backgroundImage: `url(./images/jungle2.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -53,7 +53,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center mt-12"
           style={{
-            backgroundImage: `url(/src/images/jungle3.png)`,
+            backgroundImage: `url(./images/jungle3.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -62,7 +62,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center mt-12"
           style={{
-            backgroundImage: `url(/src/images/jungle4.png)`,
+            backgroundImage: `url(./images/jungle4.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -71,7 +71,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center mt-12"
           style={{
-            backgroundImage: `url(/src/images/man_on_mountain.png)`,
+            backgroundImage: `url(./images/man_on_mountain.png)`,
             backgroundSize: "cover",
           }}
         />
@@ -80,7 +80,7 @@ export default function ParallaxComp() {
         <div
           className="w-full h-[900px] bg-center mt-12"
           style={{
-            backgroundImage: `url(/src/images/jungle5.png)`,
+            backgroundImage: `url(./images/jungle5.png)`,
             backgroundSize: "cover",
           }}
         />
