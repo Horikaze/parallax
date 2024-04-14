@@ -1,91 +1,98 @@
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import Footer from "./Footer";
+import { useParallax } from "react-scroll-parallax";
 
 export default function ParallaxComp() {
   return (
-    <Parallax pages={4} config={{ tension: 0 }}>
-      <ParallaxLayer speed={-0.8}>
-        <div
-          className="w-full h-[900px] bg-center"
-          style={{
-            backgroundImage: `url(./images/background.png)`,
-            backgroundSize: "cover",
-          }}
+    <div className="h-[calc(100vh+200px)] relative overflow-hidden">
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -90 }).ref}
+      >
+        <img
+          src="./images/background.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.75}>
-        <div
-          className="w-full h-[900px] bg-center"
-          style={{
-            backgroundImage: `url(./images/mountains.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -85 }).ref}
+      >
+        <img
+          src="./images/mountains.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.7}>
-        <div
-          className="w-full h-[900px] bg-center"
-          style={{
-            backgroundImage: `url(./images/logo_land.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -70 }).ref}
+      >
+        <img
+          src="./images/logo_land.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.65}>
-        <div
-          className="w-full h-[900px] bg-center "
-          style={{
-            backgroundImage: `url(./images/jungle1.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -65 }).ref}
+      >
+        <img
+          src="./images/jungle1.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.5}>
-        <div
-          className="w-full h-[900px] bg-center mt-12"
-          style={{
-            backgroundImage: `url(./images/jungle2.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -55 }).ref}
+      >
+        <img
+          src="./images/jungle2.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.45}>
-        <div
-          className="w-full h-[900px] bg-center mt-12"
-          style={{
-            backgroundImage: `url(./images/jungle3.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -50 }).ref}
+      >
+        <img
+          src="./images/jungle3.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.4}>
-        <div
-          className="w-full h-[900px] bg-center mt-12"
-          style={{
-            backgroundImage: `url(./images/jungle4.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: -40 }).ref}
+      >
+        <img
+          src="./images/jungle4.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={-0.1}>
-        <div
-          className="w-full h-[900px] bg-center mt-12"
-          style={{
-            backgroundImage: `url(./images/man_on_mountain.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: 10 }).ref}
+      >
+        <img
+          src="./images/man_on_mountain.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-      </ParallaxLayer>
-      <ParallaxLayer speed={0}>
-        <div
-          className="w-full h-[900px] bg-center mt-12"
-          style={{
-            backgroundImage: `url(./images/jungle5.png)`,
-            backgroundSize: "cover",
-          }}
+      </div>
+      <div
+        className="absolute inset-0 size-full"
+        ref={useParallax<HTMLDivElement>({ speed: 0 }).ref}
+      >
+        <img
+          src="./images/jungle5.png"
+          className="size-full h-full object-cover object-bottom"
+          alt=""
         />
-        <Footer />
-      </ParallaxLayer>
-    </Parallax>
+      </div>
+    </div>
   );
 }

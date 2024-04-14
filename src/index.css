@@ -11,10 +11,8 @@ body,
 :root {
   background-color: #210002;
   font-family: Vergal;
-  height: 100vh;
-  width: 100vw;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */

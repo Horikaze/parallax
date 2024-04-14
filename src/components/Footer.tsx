@@ -44,10 +44,10 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <iframe
+      {/* <iframe
         className="aspect-video lg:min-w-[1000px] w-full lg:w-auto mb-10"
         src="https://www.youtube-nocookie.com/embed/cXWlgP5hZzc"
-      ></iframe>
+      ></iframe> */}
       <div className="flex flex-col lg:mx-40 gap-y-5">
         <h2 className="font-semibold text-3xl">
           Firewatch is a mystery set in the Wyoming wilderness, where your only
@@ -121,11 +121,10 @@ export default function Footer() {
         ENTERTAINMENT WEEKLY
       </p>
       <p className="text-3xl font-semibold mb-10">日本語に関する情報</p>
-      <p className="max-w-xl text-center text-[#973700]">
+      <p className="max-w-xl text-center text-[#973700] mb-10">
         ©2024 CAMPO SANTO, IN COOPERATION WITH PANIC. FIREWATCH IS A TRADEMARK
         OF CAMPO SANTO. NINTENDO SWITCH IS A TRADEMARK OF NINTENDO.
       </p>
-      <div className="h-[1000px] bg-[#210002] w-full"></div>
     </div>
   );
 }
