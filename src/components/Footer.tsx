@@ -125,6 +125,20 @@ export default function Footer() {
         ©2024 CAMPO SANTO, IN COOPERATION WITH PANIC. FIREWATCH IS A TRADEMARK
         OF CAMPO SANTO. NINTENDO SWITCH IS A TRADEMARK OF NINTENDO.
       </p>
+      <a
+        className="text-2xl mb-10 underline"
+        href="https://github.com/Horikaze"
+        target="_blank"
+      >
+        Site made by Horikaze
+      </a>
+      <a
+        className="text-2xl mb-10 underline"
+        href="https://github.com/Horikaze/parallax"
+        target="_blank"
+      >
+        GITHUB
+      </a>
     </div>
   );
 }
