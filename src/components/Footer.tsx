@@ -44,10 +44,10 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      {/* <iframe
+      <iframe
         className="aspect-video lg:min-w-[1000px] w-full lg:w-auto mb-10"
         src="https://www.youtube-nocookie.com/embed/cXWlgP5hZzc"
-      ></iframe> */}
+      ></iframe>
       <div className="flex flex-col lg:mx-40 gap-y-5">
         <h2 className="font-semibold text-3xl">
           Firewatch is a mystery set in the Wyoming wilderness, where your only
