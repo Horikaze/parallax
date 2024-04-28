@@ -13,6 +13,28 @@ body,
   font-family: Vergal;
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+body {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #ffaf00;
+  --sb-size: 8px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 2px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}

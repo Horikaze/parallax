@@ -1,8 +1,10 @@
 export default function Footer() {
   return (
-    <div className="bg-[#210002] flex flex-col items-center text-[#ffaf00]">
-      <p className="text-4xl tracking-widest">AVAILABLE NOW FOR $19.99</p>
-      <div className="grid grid-cols-2 grid-rows-2 gap-10 my-10 items-center justify-center">
+    <div className="bg-[#210002] flex flex-col items-center text-[#ffaf00] text-center px-2 container">
+      <p className="text-4xl tracking-widest text-center">
+        AVAILABLE NOW FOR $19.99
+      </p>
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-10 my-10 items-center justify-center">
         <div className="h-8 w-72 bg-[#ffaf00] rounded-sm flex gap-x-3 p-2 items-center justify-center">
           <img
             src="https://www.firewatchgame.com/images/buyicon_pc.png"
@@ -53,8 +55,8 @@ export default function Footer() {
           Firewatch is a mystery set in the Wyoming wilderness, where your only
           emotional lifeline is the person on the other end of a handheld radio
         </h2>
-        <div className="flex text-xl gap-4 leading-relaxed h-96">
-          <div className="flex flex-col gap-y-5 w-full ">
+        <div className="flex md:flex-row flex-col text-xl gap-4 leading-relaxed md:h-96">
+          <div className="flex flex-col gap-y-5 w-full text-start">
             <p>The year is 1989.</p>
             <p>
               You are a man named Henry who has retreated from your messy life
@@ -66,11 +68,11 @@ export default function Footer() {
               An especially hot, dry summer has everyone on edge. Your
               supervisor, a woman named Delilah, is available to you
             </p>
-            <div className="flex text-black mt-auto bg-[#973700] hover:bg-[#ffaf00] transition-all h-7 w-full rounded-sm font-semibold justify-center items-center">
+            <div className="flex cursor-pointer text-black mt-auto bg-[#973700] hover:bg-[#ffaf00] transition-all h-7 w-full rounded-sm font-semibold justify-center items-center">
               SCREENS & TRAILERS
             </div>
           </div>
-          <div className="flex flex-col gap-y-5 w-full">
+          <div className="flex flex-col gap-y-5 w-full text-start">
             <p>
               at all times over a small, handheld radio—and is your only contact
               with the world you've left behind.
@@ -82,12 +84,12 @@ export default function Footer() {
               that can build or destroy the only meaningful relationship you
               have.
             </p>
-            <div className="flex mt-auto text-black bg-[#973700] hover:bg-[#ffaf00] transition-all h-7 w-full rounded-sm font-semibold justify-center items-center">
+            <div className="flex cursor-pointer  mt-auto text-black bg-[#973700] hover:bg-[#ffaf00] transition-all h-7 w-full rounded-sm font-semibold justify-center items-center">
               FIREWATCH FAQ
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-10 my-10 items-center justify-center">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 my-10 items-center justify-center">
           <div className="flex w-full h-full justify-center items-center">
             <img
               src="https://www.firewatchgame.com/screenshots/thumbs/firewatch_01.jpg"
