@@ -4,9 +4,9 @@ import ParallaxComp from "./components/ParallaxComp";
 function App() {
   return (
     <>
-      {/* <ParallaxProvider>
+      <ParallaxProvider>
         <ParallaxComp />
-      </ParallaxProvider> */}
+      </ParallaxProvider>
       <Footer />
     </>
   );
