@@ -133,7 +133,7 @@ export default function Footer() {
         Site made by Horikaze
       </a>
       <a
-        className="text-2xl mb-10 underline"
+        className="underline fixed right-5 bottom-5"
         href="https://github.com/Horikaze/parallax"
         target="_blank"
       >
