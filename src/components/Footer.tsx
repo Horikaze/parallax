@@ -55,7 +55,7 @@ export default function Footer() {
           Firewatch is a mystery set in the Wyoming wilderness, where your only
           emotional lifeline is the person on the other end of a handheld radio
         </h2>
-        <div className="flex md:flex-row flex-col text-xl gap-4 leading-relaxed md:h-96">
+        <div className="flex md:flex-row flex-col text-xl gap-4 leading-relaxed">
           <div className="flex flex-col gap-y-5 w-full text-start">
             <p>The year is 1989.</p>
             <p>
